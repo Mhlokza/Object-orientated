@@ -1,0 +1,24 @@
+// dynamic method dispatch, pollymophism- run time and compile time
+class Car 
+int kilo;
+String model;
+{
+	public void show()
+	{
+		System.out.println("car");
+	}
+}
+class Toyota extends Car
+{
+	public void show()
+	{
+		System.out.println("Toyota");
+	}
+}
+class Bmw extends Car
+{
+	public void show()
+	{
+		System.out.println("Bmw");
+}
+}

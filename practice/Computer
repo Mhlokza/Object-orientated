@@ -1,0 +1,18 @@
+
+class Computer
+{
+	int price;
+	String model;
+	public String toString()
+	{
+		return model+ ":" + price;
+	}
+    public boolean equals(Computer that)
+	{
+		if (this.model.equals(that.model)&& this.price==that.price)
+		return true;
+		else
+		return false;
+			}
+    
+}

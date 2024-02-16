@@ -1,0 +1,19 @@
+// final keyword
+final class A
+{
+	public void show()
+	{
+		System.out.println("culculation");
+	}
+	public int add(int a, int b)
+	{
+		return a+b;
+	}
+}
+class B extends A
+{
+	public void show()
+	{
+		System.out.println("M Nkosi");
+	}
+}

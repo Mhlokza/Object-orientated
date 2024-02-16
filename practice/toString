@@ -1,0 +1,9 @@
+class Computer
+{
+	int price;
+	String model;
+	public String toString()
+	{
+		return model+ ":" + price;
+	}
+}
